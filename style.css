@@ -3,3 +3,14 @@
  padding:0;
  box-sizing: border-box;
 }
+
+.promo {
+ /*background-image: url("img/inside-weather-Uxqlfigh6oE-unsplash%201.jpg");*/
+ height: 630px;
+ padding-top: 140px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ max-width: 1065px;
+ margin: 0 auto;
+}
