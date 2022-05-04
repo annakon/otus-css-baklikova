@@ -1,50 +1,54 @@
 @font-face {
- font-family: "Butler";
- font-style: normal;
- font-weight: 300;
- src: local("Roboto"), url("/fonts/butler/Butlerlight.woff2") format("woff2"), url("/fonts/butler/Butlerlight.woff") format("woff");
-}
-*{
- margin:0;
- padding:0;
- box-sizing: border-box;
+    font-family: "Butler";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Butler"), url("fonts/butler/Butlerlight.woff2") format("woff2"), url("fonts/butler/Butlerlight.woff") format("woff");
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+}
 
 .promo {
- background-image: url("img/inside-weather-Uxqlfigh6oE-unsplash 1.jpg");
- height: 630px;
- padding-top: 140px;
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center;
- max-width: 1065px;
- margin: 135px auto 0;
+    background-image: url("img/inside-weather-Uxqlfigh6oE-unsplash 1.jpg");
+    height: 630px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1065px;
+    margin: 135px auto 0;
 }
 
-.promo-box{
- background-color: white;
- width: 557px;
- margin: 0 auto;
- padding-top:130px;
- padding-bottom: 85px;
+.promo-box {
+    background-color: white;
+    width: 557px;
+    margin: 137px auto;
+    padding-top: 120px;
 }
 
-.promo-title{
- font-family: "Butler";
- font-weight:400;
- font-size: 87px;
- line-height: 104px;
- text-align: center;
- margin-bottom: 18px;
- color: black;
+.promo-title {
+    font-family: "Butler";
+    font-weight: 400;
+    font-size: 87px;
+    line-height: 104px;
+    text-align: center;
+    margin-bottom: 18px;
+    color: black;
 }
 
-.promo-description{
- font-family: 'Roboto', sans-serif;
- font-weight: 700;
- font-size: 18px;
- line-height: 21px;
- text-align: center;
- color: black;
+.promo-description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+    width: 260px;
+    padding-top: 2px;
+    margin-left: 187px;
 }
