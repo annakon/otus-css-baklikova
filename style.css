@@ -4,13 +4,31 @@
  box-sizing: border-box;
 }
 
+
 .promo {
- /*background-image: url("img/inside-weather-Uxqlfigh6oE-unsplash%201.jpg");*/
+ background-image: url("img/inside-weather-Uxqlfigh6oE-unsplash 1.jpg");
  height: 630px;
  padding-top: 140px;
  background-repeat: no-repeat;
  background-size: cover;
  background-position: center;
  max-width: 1065px;
+ margin: 135px auto 0;
+}
+
+.promo-box{
+ background-color: white;
+ width: 557px;
  margin: 0 auto;
+ padding-top:130px;
+ padding-bottom: 85px;
+}
+
+.promo-title{
+ /*font-family: "Butler";
+ font-wight:400;*/
+ font-size: 87px;
+ line-height: 104px;
+ text-align: center;
+ margin-bottom: 18px;
 }
