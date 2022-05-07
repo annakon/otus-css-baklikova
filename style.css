@@ -11,10 +11,6 @@
     box-sizing: border-box;
 }
 
-section {
-    display: flex;
-}
-
 .promo {
     background-image: url("img/inside-weather-Uxqlfigh6oE-unsplash 1.jpg");
     height: 630px;
@@ -23,6 +19,7 @@ section {
     background-position: center;
     max-width: 1065px;
     margin: 135px auto 0;
+    display: flex;
 }
 
 .promo-box {
@@ -58,3 +55,32 @@ section {
     margin: 0 auto;
 }
 
+.grey{
+    font-family: "Butler";
+    font-weight: 400;
+    font-size: 18px;
+    color: #8C8888;
+}
+
+.out-section{
+    padding-top: 59px;
+    padding-left: 814px;
+}
+
+.left-katya{
+    float: right;
+}
+
+.katya{
+    padding-top: 54px;
+    padding-left: 133px;
+}
+
+.out-section2{
+    padding-top: 87px;
+    padding-left: 5px;
+}
+
+.biography{
+    writing-mode:bt-lr;
+}
