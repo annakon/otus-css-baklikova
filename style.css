@@ -69,18 +69,52 @@
 
 .left-katya{
     float: right;
+    padding-right:169px;
 }
 
-.katya{
+.section-katya{
     padding-top: 54px;
     padding-left: 133px;
 }
 
 .out-section2{
     padding-top: 87px;
-    padding-left: 5px;
+    /*padding-left: 131px;*/
 }
 
 .biography{
-    writing-mode:bt-lr;
+    writing-mode:vertical-rl;
+    text-align: left;
+    float: right;
+}
+
+.name-katya{
+    font-family: "Butler";
+    font-weight: 400;
+    font-size: 87px;
+    /*padding-left:146px;*/
+    padding-top: 76px;
+}
+
+.prof-font{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+   /* padding-left:146px;*/
+    padding-top: 43px;
+}
+
+.rectangle{
+    width: 14px;
+    height: 4px;
+    left: 834px;
+    top: 1445px;
+    background: #000000;
+}
+
+.bquote{
+    font-family: "Butler";
+    font-weight: 400;
+    font-size: 32px;
+    max-width: 415px;
 }
