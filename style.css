@@ -79,13 +79,15 @@
 
 .out-section2{
     padding-top: 87px;
-    /*padding-left: 131px;*/
 }
 
 .biography{
     writing-mode:vertical-rl;
     text-align: left;
     float: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .name-katya{
@@ -102,6 +104,7 @@
     font-size: 18px;
    /* padding-left:146px;*/
     padding-top: 43px;
+    padding-bottom: 63px;
 }
 
 .rectangle{
@@ -117,4 +120,5 @@
     font-weight: 400;
     font-size: 32px;
     max-width: 415px;
+    padding-top: 28px;
 }
