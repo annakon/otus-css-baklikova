@@ -60,6 +60,7 @@
     font-weight: 400;
     font-size: 18px;
     color: #8C8888;
+    letter-spacing: .1px;
 }
 
 .out-section{
@@ -88,7 +89,8 @@
     font-weight: 700;
     font-size: 18px;
     transform: rotate(-180deg);
-    height: 800px;
+    height: 911px;
+    padding-left: 61px;
 }
 
 .name-katya{
