@@ -63,13 +63,12 @@
 }
 
 .out-section{
-    padding-top: 59px;
-    padding-left: 816px;
+    padding-top: 5px;
 }
 
 .left-katya{
     float: left;
-    padding-left:145px;
+    padding-left:130px;
 }
 
 .section-katya{
@@ -78,7 +77,7 @@
 }
 
 .out-section2{
-    padding-top: 87px;
+    padding-top: 141px;
 }
 
 .biography{
@@ -125,4 +124,34 @@
     padding-top: 28px;
     line-height: 37px;
     letter-spacing: -.6px;
+}
+
+.image-katya{
+    float: left;
+    padding-top: 80px;
+}
+
+.plus-padding{
+    padding-left: 18px;
+}
+
+.blq{
+    font-size: 22px;
+    top: -6px;position: relative;
+    padding-right: 0px;
+}
+
+.blq2{
+    font-size: 22px;
+    top: -6px;
+    left:-5px;
+    position: relative;
+}
+
+.out-section3{
+    padding-top: 87px;
+}
+
+.out-section4{
+   padding-top: 107px;
 }
