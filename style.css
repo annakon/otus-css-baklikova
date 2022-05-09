@@ -16,7 +16,7 @@
 
 .promo-box {
     background-color: white;
-    width: 557px;
+    max-width: 557px;
     margin: 137px auto;
     /*padding-top: 120px;*/
     height: 355px;
@@ -41,13 +41,13 @@
     font-size: 18px;
     line-height: 21px;
     color: black;
-    width: 260px;
+    max-width: 260px;
     padding-top: 2px;
     margin-left: 187px;
 }
 
 .main-style{
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
