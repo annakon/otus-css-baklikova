@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Butler';
+    src: local('Butler Light'), local('Butler-Light'), url('fonts/butler/Butlerlight.woff2') format('woff2'), url('fonts/butler/Butlerlight.woff') format('woff'), url('fonts/butler/Butlerlight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
 .promo {
     /*background-image: url("img/inside-weather-Uxqlfigh6oE-unsplash 1.jpg");*/
     height: 630px;
