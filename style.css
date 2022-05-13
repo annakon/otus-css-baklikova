@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    font-size:16px;
+}
+
 @font-face {
     font-family: 'Butler';
     src: local('Butler Light'), local('Butler-Light'), url('fonts/butler/Butlerlight.woff2') format('woff2'), url('fonts/butler/Butlerlight.woff') format('woff'), url('fonts/butler/Butlerlight.ttf') format('truetype');
@@ -13,7 +17,7 @@
 
 .promo {
     /*background-image: url("img/inside-weather-Uxqlfigh6oE-unsplash 1.jpg");*/
-    height: 630px;
+    height: 39.375rem; /*630px*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
