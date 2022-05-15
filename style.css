@@ -69,7 +69,7 @@
 }
 
 .grey{
-    font-family: "Butler";
+    font-family: "Butler",serif;
     font-weight: 300;
     font-size: 18px;
     color: #8C8888;
@@ -107,7 +107,7 @@
 }
 
 .name-katya{
-    font-family: "Butler";
+    font-family: "Butler",serif;
     font-weight: 300;
     font-size: 87px;
     /*padding-left:146px;*/
@@ -132,7 +132,7 @@
 }
 
 .bquote{
-    font-family: "Butler";
+    font-family: "Butler",serif;
     font-weight: 300;
     font-size: 32px;
     max-width: 415px;
@@ -156,4 +156,24 @@
 
 .out-section4{
    padding-top: 107px;
+}
+
+.article-conteiner{
+    display:flex;
+    justify-content: space-between;
+}
+
+.article-con2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.des-style{
+    writing-mode:vertical-rl;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    transform: rotate(-180deg);
+    text-align: center;
+    /*flex-grow: 1;*/
 }
