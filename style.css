@@ -160,7 +160,8 @@
 
 .article-conteiner{
     display:flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 111px;
 }
 
 .article-con2{
