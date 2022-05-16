@@ -166,6 +166,9 @@
 .article-con2{
     display: flex;
     flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    /*gap:24px;*/
 }
 
 .des-style{
@@ -174,6 +177,6 @@
     font-weight: 700;
     font-size: 18px;
     transform: rotate(-180deg);
-    text-align: center;
-    /*flex-grow: 1;*/
+    flex-basis: 100%;
+    padding-right: 45%;
 }
