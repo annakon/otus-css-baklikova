@@ -197,3 +197,30 @@
 .otstup{
     padding-top: 1.5rem;
 }
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap:28px;
+}
+
+.strong-p{
+    writing-mode:vertical-rl;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    transform: rotate(-180deg);
+    padding-right: 472px;
+}
+
+.Strenght{
+    font-family: "Butler",serif;
+    font-weight: 300;
+    font-size: 92px;
+}
+
+.h-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
