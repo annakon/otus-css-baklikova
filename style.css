@@ -218,9 +218,24 @@
     font-family: "Butler",serif;
     font-weight: 300;
     font-size: 92px;
+    transform:translate(12%,22%);
 }
 
 .h-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 51px;
+}
+
+.font-li{
+    font-family: "Butler",serif;
+    font-weight: 300;
+    font-size: 34px;
+    padding-left: 142px;
+    padding-right: 243px;
+    padding-top: 27px;
+}
+
+.ul-type{
+    list-style-type: none;
 }
