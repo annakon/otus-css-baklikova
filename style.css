@@ -5,7 +5,7 @@
 }
 
 :root{
-    font-size:16px;
+    font-size: 16px;
 }
 
 @font-face {
@@ -25,7 +25,7 @@
 }
 
 .promo{
-    height:100vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -33,9 +33,9 @@
     z-index: 1;
     background-color: white;
     position: absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
     font-size: 5.5rem;
     padding: 1.16em 0.7em;
@@ -48,7 +48,7 @@
     font-size: 1em;
     line-height: 1.2em;
     color: black;
-    transform:translate(0%,16%);
+    transform: translate(0%,16%);
 }
 
 .promo-description{
@@ -63,9 +63,9 @@
 
 .back-image{
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 50%;
-    transform:translate(-50%,-50%);
-    width:90%;
+    transform: translate(-50%,-50%);
+    width: 90%;
     max-width: 1065px;
 }
