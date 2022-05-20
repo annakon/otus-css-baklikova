@@ -27,6 +27,8 @@
 .promo {
     height: 100vh;
     position: relative;
+    min-width: 254px;
+    max-width: 1440px;
 }
 
 .promo-box {
@@ -66,6 +68,5 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
     max-width: 1065px;
 }
