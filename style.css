@@ -25,7 +25,7 @@
 }
 
 .promo{
-    height:100vw;
+    height:100vh;
     position: relative;
 }
 
@@ -35,7 +35,7 @@
     position: absolute;
     top:50%;
     left:50%;
-    transform:translate(-57%,-140%);
+    transform:translate(-50%,-50%);
     text-align: center;
     font-size: 5.5rem;
     padding: 1.16em 0.7em;
@@ -65,7 +65,7 @@
     position: absolute;
     top:50%;
     left: 50%;
-    transform:translate(-54%,-100%);
+    transform:translate(-50%,-50%);
     width:90%;
     max-width: 1065px;
 }
