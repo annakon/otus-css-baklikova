@@ -38,7 +38,7 @@
     transform:translate(-50%,-50%);
     text-align: center;
     font-size: 5.5rem;
-    padding: 1.5em 2em;
+    padding: 1.16em 0.7em;
     white-space: nowrap;
 }
 
@@ -48,15 +48,17 @@
     font-size: 1em;
     line-height: 1.2em;
     color: black;
+    transform:translate(0%,16%);
 }
 
 .promo-description{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 0.25em;
+    font-size: 0.21em;
     line-height: 1.2em;
     color: black;
     margin-bottom: 1.2em;
+    transform: translate(-3%,150%);
 }
 
 .back-image{
@@ -65,5 +67,5 @@
     left: 50%;
     transform:translate(-50%,-50%);
     width:90%;
-    max-width: 1045px;
+    max-width: 1065px;
 }
