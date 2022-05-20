@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-:root{
+:root {
     font-size: 16px;
 }
 
@@ -15,57 +15,57 @@
     font-style: normal;
 }
 
-.body-class{
+.body-class {
     background-color: white;
 }
 
-.main-style{
+.main-style {
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.promo{
+.promo {
     height: 100vh;
     position: relative;
 }
 
-.promo-box{
+.promo-box {
     z-index: 1;
     background-color: white;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     text-align: center;
     font-size: 5.5rem;
     padding: 1.16em 0.7em;
     white-space: nowrap;
 }
 
-.promo-title{
-    font-family: "Butler",serif;
+.promo-title {
+    font-family: "Butler", serif;
     font-weight: 300;
     font-size: 1em;
     line-height: 1.2em;
     color: black;
-    transform: translate(0%,16%);
+    transform: translate(0%, 16%);
 }
 
-.promo-description{
+.promo-description {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 0.21em;
     line-height: 1.2em;
     color: black;
     margin-bottom: 1.2em;
-    transform: translate(-3%,150%);
+    transform: translate(-3%, 150%);
 }
 
-.back-image{
+.back-image {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     width: 90%;
     max-width: 1065px;
 }
