@@ -16,6 +16,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Butlerultralight';
+    src: local('Butler UltraLight'), local('Butler-UltraLight'), url('fonts/butler/Butlerultralight.woff2') format('woff2'), url('fonts/butler/Butlerultralight.woff') format('woff'), url('fonts/butler/Butlerultralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
 .body-class {
     background-color: white;
 }
@@ -86,11 +93,6 @@
     padding-left:130px;
 }
 
-/*.section-katya{
-    padding-top: 54px;
-    padding-left: 133px;
-}*/
-
 .out-section2{
     padding-top: 141px;
 }
@@ -110,8 +112,8 @@
 .name-katya{
     font-family: "Butler", serif;
     font-weight: 300;
-    font-size: 87px;
-    padding-top: 76px;
+    font-size: 5.4rem;
+    padding-top: 4.75rem;
 }
 
 .prof-font{
@@ -131,13 +133,11 @@
 }
 
 .bquote{
-    font-family: "Butler", serif;
-    font-weight: 300;
-    font-size: 32px;
     max-width: 415px;
     padding-top: 28px;
-    line-height: 37px;
-    letter-spacing: -.6px;
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: 'Butlerultralight',serif;
 }
 
 .image-katya{
