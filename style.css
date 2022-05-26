@@ -79,13 +79,14 @@
 .grey{
     font-family: "Butler", serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.1rem;
     color: #8C8888;
     letter-spacing: .1px;
+
 }
 
 .out-section{
-    padding-top: 5px;
+    padding-top: 0.313rem;
 }
 
 .left-katya{
@@ -94,7 +95,7 @@
 }
 
 .out-section2{
-    padding-top: 141px;
+    padding-top: 8.813rem;
 }
 
 .biography{
@@ -113,15 +114,15 @@
     font-family: "Butler", serif;
     font-weight: 300;
     font-size: 5.4rem;
-    padding-top: 4.75rem;
+    padding-top: 4.85rem;
 }
 
 .prof-font{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 18px;
-    padding-top: 43px;
-    padding-bottom: 63px;
+    font-size: 1.1rem;
+    padding-top: 2.75rem;
+    padding-bottom: 4rem;
 }
 
 .rectangle{
@@ -142,7 +143,7 @@
 
 .image-katya{
     float: left;
-    padding-top: 80px;
+    padding-top: 5rem;
     padding-left: 133px;
 }
 
@@ -151,9 +152,9 @@
 }
 
 .out-section3{
-    padding-top: 87px;
+    padding-top: 5.5rem;
 }
 
 .out-section4{
-   padding-top: 107px;
+   padding-top: 6.7rem;
 }
