@@ -94,10 +94,6 @@
     position: relative;
 }
 
-.out-section2{
-    padding-top: 8.813rem;
-}
-
 .biography{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -112,7 +108,7 @@
     font-family: "Butler", serif;
     font-weight: 300;
     font-size: 5.4rem;
-    padding-top: 4.85rem;
+    padding-top: 16.5rem;
 }
 
 .prof-font{
@@ -149,12 +145,4 @@
 
 .plus-padding{
     padding-left: 18px;
-}
-
-.out-section3{
-    padding-top: 5.5rem;
-}
-
-.out-section4{
-   padding-top: 6.7rem;
 }
