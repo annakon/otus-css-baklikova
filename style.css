@@ -17,7 +17,7 @@
 }
 
 @font-face {
-    font-family: 'Butlerultralight';
+    font-family: 'Butler';
     src: local('Butler UltraLight'), local('Butler-UltraLight'), url('fonts/butler/Butlerultralight.woff2') format('woff2'), url('fonts/butler/Butlerultralight.woff') format('woff'), url('fonts/butler/Butlerultralight.ttf') format('truetype');
     font-weight: 200;
     font-style: normal;
@@ -130,8 +130,8 @@
     max-width: 415px;
     padding-top: 1.75rem;
     font-size: 2rem;
+    font-family: "Butler", serif;
     font-weight: 200;
-    font-family: 'Butlerultralight',serif;
 }
 
 .image-katya{
