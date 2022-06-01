@@ -76,21 +76,20 @@
     max-width: 1065px;
 }
 
-.grey{
+/*.grey{
     font-family: "Butler", serif;
     font-weight: 300;
     font-size: 1.1rem;
     color: #8C8888;
     letter-spacing: .1px;
 
-}
+}*/
 
 .left-katya{
     float: left;
     padding-left:130px;
-    display:inline-block;
     max-width: 50%;
-    width: 49.99%;
+    width: 50%;
     position: relative;
 }
 
@@ -100,7 +99,7 @@
     font-size: 1.1rem;
     position: absolute;
     right: 0;
-    bottom: 10.5rem;
+    bottom: -4.4rem;
     transform: rotate(-90deg);
 }
 
