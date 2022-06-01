@@ -53,14 +53,14 @@
 }
 
 .promo-title {
-    font-family: "Butler", serif;
+    font-family: "Butler",Times, "Times New Roman", serif;
     font-weight: 300;
     font-size: 1em;
     color: black;
 }
 
 .promo-description {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 0.21em;
     color: black;
@@ -94,7 +94,7 @@
 }
 
 .biography{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
     position: absolute;
@@ -104,14 +104,14 @@
 }
 
 .name-katya{
-    font-family: "Butler", serif;
+    font-family: "Butler",Times, "Times New Roman", serif;
     font-weight: 300;
     font-size: 5.4rem;
     padding-top: 16.5rem;
 }
 
 .prof-font{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 1.1rem;
     padding-top: 2.75rem;
@@ -121,8 +121,6 @@
 .rectangle{
     width: 14px;
     height: 4px;
-    left: 834px;
-    top: 1445px;
     background: #000000;
 }
 
@@ -130,7 +128,7 @@
     max-width: 415px;
     padding-top: 1.75rem;
     font-size: 2rem;
-    font-family: "Butler", serif;
+    font-family: "Butler",Times, "Times New Roman", serif;
     font-weight: 200;
 }
 
