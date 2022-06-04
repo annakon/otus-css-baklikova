@@ -6,7 +6,7 @@
 
 :root {
     font-size: 16px;
-    line-height: 1.2
+    line-height: 1.2;
 }
 
 @font-face {
@@ -32,11 +32,10 @@
     margin: 0 auto;
 }
 
-.promo {
+.section-style {
     height: 100vh;
     position: relative;
-    min-width: 254px;
-    max-width: 1440px;
+    min-height: 600px;
 }
 
 .promo-box {
@@ -53,14 +52,14 @@
 }
 
 .promo-title {
-    font-family: "Butler",Times, "Times New Roman", serif;
+    font-family: "Butler", Times, "Times New Roman", serif;
     font-weight: 300;
     font-size: 1em;
     color: black;
 }
 
 .promo-description {
-    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 0.21em;
     color: black;
@@ -85,16 +84,16 @@
 
 }*/
 
-.left-katya{
+.left-katya {
     float: left;
-    padding-left:130px;
+    padding-left: 130px;
     max-width: 50%;
     width: 50%;
     position: relative;
 }
 
-.biography{
-    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+.biography {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
     position: absolute;
@@ -103,36 +102,36 @@
     transform: rotate(-90deg);
 }
 
-.name-katya{
-    font-family: "Butler",Times, "Times New Roman", serif;
+.name-katya {
+    font-family: "Butler", Times, "Times New Roman", serif;
     font-weight: 300;
     font-size: 5.4rem;
     padding-top: 16.5rem;
 }
 
-.prof-font{
-    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+.prof-font {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 1.1rem;
     padding-top: 2.75rem;
     padding-bottom: 4rem;
 }
 
-.rectangle{
+.rectangle {
     width: 14px;
     height: 4px;
     background: #000000;
 }
 
-.bquote{
+.bquote {
     max-width: 415px;
     padding-top: 1.75rem;
     font-size: 2rem;
-    font-family: "Butler",Times, "Times New Roman", serif;
+    font-family: "Butler", Times, "Times New Roman", serif;
     font-weight: 200;
 }
 
-.image-katya{
+.image-katya {
     float: left;
     padding-top: 4.8rem;
     padding-left: 133px;
@@ -140,6 +139,6 @@
     overflow: hidden;
 }
 
-.plus-padding{
+.plus-padding {
     padding-left: 18px;
 }
