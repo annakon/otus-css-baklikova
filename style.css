@@ -87,7 +87,6 @@
 .left-katya {
     float: left;
     padding-left: 130px;
-    max-width: 50%;
     width: 50%;
     position: relative;
 }
@@ -97,8 +96,8 @@
     font-weight: 700;
     font-size: 1.1rem;
     position: absolute;
-    right: 0;
-    bottom: -4.4rem;
+    right: 2rem;
+    bottom: -16.5%;
     transform: rotate(-90deg);
 }
 
