@@ -7,6 +7,8 @@
 :root {
     font-size: 16px;
     line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 * {
@@ -162,6 +164,7 @@
     display:flex;
     justify-content: flex-start;
     gap: 111px;
+    padding-top: 10.6rem;
 }
 
 .article-con2{
@@ -169,7 +172,6 @@
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: space-between;
-    /*gap:24px;*/
 }
 
 .des-style{
@@ -189,9 +191,13 @@
 
 .jess{
     padding-left: 178px;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 .otstup{
     padding-top: 1.5rem;
+}
+
+.UpperCase {
+    text-transform: uppercase;
 }
