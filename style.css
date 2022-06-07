@@ -203,19 +203,21 @@
 .flex-cont {
     display: flex;
     padding-top: 2.6rem;
+    justify-content: center;
 }
 
 .rotate {
-    transform: rotate(-90deg);
+    transform: rotate(-90deg) translate(0,7rem);
 }
 
 .grid-test {
     display:grid;
     grid-template-columns: 1fr 1fr;
+    gap:25px;
 }
 
 .rotate-otst {
-    padding-bottom: 10rem;
+    padding-bottom: 12rem;
 }
 
 .test-h {
@@ -230,4 +232,12 @@
     font-family: "Butler", Times, "Times New Roman", serif;
     font-weight: 200;
     text-align: center;
+}
+
+.right-test {
+    justify-self: center;
+}
+
+.a-container {
+    padding-top: 3rem;
 }
