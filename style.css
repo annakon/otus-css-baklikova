@@ -200,10 +200,19 @@
     padding-top: 15rem;
 }
 
-.image-test {
-    float: right;
+.flex-cont {
+    display: flex;
 }
 
-.rotate{
+.rotate {
     transform: rotate(-90deg);
+}
+
+.grid-test{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.rotate-otst {
+    padding-bottom: 10rem;
 }
