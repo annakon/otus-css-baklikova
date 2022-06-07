@@ -236,6 +236,8 @@
 
 .right-test {
     justify-self: center;
+    padding-top: 0.7rem;
+    padding-left: 2.7rem;
 }
 
 .a-container {
@@ -251,4 +253,8 @@
 
 .b-link {
     font-weight: 700;
+}
+
+.img-mini {
+    padding-top: 2rem;
 }
