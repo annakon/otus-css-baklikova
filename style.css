@@ -241,3 +241,14 @@
 .a-container {
     padding-top: 3rem;
 }
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.b-link {
+    font-weight: 700;
+}
