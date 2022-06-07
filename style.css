@@ -197,22 +197,37 @@
 }
 
 .otstup2 {
-    padding-top: 15rem;
+    padding-top: 30rem;
 }
 
 .flex-cont {
     display: flex;
+    padding-top: 2.6rem;
 }
 
 .rotate {
     transform: rotate(-90deg);
 }
 
-.grid-test{
+.grid-test {
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .rotate-otst {
     padding-bottom: 10rem;
+}
+
+.test-h {
+    padding-top: 18rem;
+    padding-left: 11rem;
+}
+
+.bquote2 {
+    max-width: 206px;
+    padding-top: 1.75rem;
+    font-size: 2rem;
+    font-family: "Butler", Times, "Times New Roman", serif;
+    font-weight: 200;
+    text-align: center;
 }
