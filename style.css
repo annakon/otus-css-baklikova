@@ -258,3 +258,45 @@
 .img-mini {
     padding-top: 2rem;
 }
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap:28px;
+}
+
+.strong-p{
+    writing-mode:vertical-rl;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    transform: rotate(-180deg);
+    padding-right: 472px;
+}
+
+.Strenght{
+    font-family: "Butler",serif;
+    font-weight: 300;
+    font-size: 92px;
+    transform:translate(12%,22%);
+}
+
+.h-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 51px;
+}
+
+.font-li{
+    font-family: "Butler",serif;
+    font-weight: 300;
+    font-size: 34px;
+    padding-left: 142px;
+    padding-right: 243px;
+    padding-top: 27px;
+}
+
+.ul-type{
+    list-style-type: none;
+}
