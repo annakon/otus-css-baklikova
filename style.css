@@ -6,7 +6,7 @@
 
 :root {
     font-size: 16px;
-    line-height: 1.2
+    line-height: 1.2;
 }
 
 @font-face {
@@ -16,8 +16,19 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Butler';
+    src: local('Butler UltraLight'), local('Butler-UltraLight'), url('fonts/butler/Butlerultralight.woff2') format('woff2'), url('fonts/butler/Butlerultralight.woff') format('woff'), url('fonts/butler/Butlerultralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
 .body-class {
     background-color: white;
+}
+
+.clear {
+    clear: both;
 }
 
 .main-style {
@@ -25,11 +36,10 @@
     margin: 0 auto;
 }
 
-.promo {
+.section-style {
     height: 100vh;
     position: relative;
-    min-width: 254px;
-    max-width: 1440px;
+    min-height: 600px;
 }
 
 .promo-box {
@@ -46,14 +56,14 @@
 }
 
 .promo-title {
-    font-family: "Butler", serif;
+    font-family: "Butler", Times, "Times New Roman", serif;
     font-weight: 300;
     font-size: 1em;
     color: black;
 }
 
 .promo-description {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 0.21em;
     color: black;
@@ -67,4 +77,71 @@
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 1065px;
+}
+
+/*.grey{
+    font-family: "Butler", serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: #8C8888;
+    letter-spacing: .1px;
+
+}*/
+
+.left-katya {
+    float: left;
+    padding-left: 130px;
+    width: 50%;
+    position: relative;
+}
+
+.biography {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    position: absolute;
+    right: 2rem;
+    bottom: -16.5%;
+    transform: rotate(-90deg);
+}
+
+.name-katya {
+    font-family: "Butler", Times, "Times New Roman", serif;
+    font-weight: 300;
+    font-size: 5.4rem;
+    padding-top: 16.5rem;
+}
+
+.prof-font {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding-top: 2.75rem;
+    padding-bottom: 4rem;
+}
+
+.rectangle {
+    width: 14px;
+    height: 4px;
+    background: #000000;
+}
+
+.bquote {
+    max-width: 415px;
+    padding-top: 1.75rem;
+    font-size: 2rem;
+    font-family: "Butler", Times, "Times New Roman", serif;
+    font-weight: 200;
+}
+
+.image-katya {
+    float: left;
+    padding-top: 4.8rem;
+    padding-left: 133px;
+    max-width: 50%;
+    overflow: hidden;
+}
+
+.plus-padding {
+    padding-left: 18px;
 }
