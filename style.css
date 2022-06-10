@@ -64,6 +64,15 @@
     white-space: nowrap;
 }
 
+@media (max-width: 1200px) {
+    .promo-box {
+        position: static;
+        background-color: skyblue;
+        transform: none;
+        max-width: 100%;
+    }
+}
+
 .promo-title {
     font-family: "Butler", Times, "Times New Roman", serif;
     font-weight: 300;
@@ -83,6 +92,14 @@
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 1065px;
+}
+
+@media (max-width: 1200px) {
+    .back-image {
+        position: static;
+        transform: none;
+        max-width: 100%;
+    }
 }
 
 /*.grey{
