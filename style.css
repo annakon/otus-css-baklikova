@@ -80,6 +80,12 @@
     color: black;
 }
 
+@media (max-width: 1065px) {
+    .promo-title {
+        font-size: 4.375rem;
+    }
+}
+
 .promo-description {
     color: black;
     margin-bottom: -1.2em;
