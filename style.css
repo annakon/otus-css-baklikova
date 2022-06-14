@@ -137,31 +137,18 @@
 .article-conteiner {
     display: flex;
     justify-content: flex-start;
-    gap: 111px;
-    /*padding-top: 10.6rem;*/
+    gap: 1.5%;
     align-items: flex-end;
 }
-
-/*.article-con2 {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    justify-content: space-between;
-}*/
 
 .des-style {
     writing-mode: vertical-rl;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
-    transform: rotate(-180deg);
+    transform: rotate(-180deg) translateY(-100%);
     flex-basis: 100%;
-    padding-right: 45%;
-    /*padding-top: 1rem;*/
-}
-
-.article-min {
-
+    padding-right: 70.5%;
 }
 
 .roboto500 {
@@ -172,6 +159,11 @@
 .jess {
     padding-left: 178px;
     padding-top: 1.2rem;
+}
+
+.article-jess {
+   /* padding-right: 10%;*/
+    flex-grow: 0.55;
 }
 
 .otstup {
@@ -186,3 +178,6 @@
 .otstup2 {
     padding-top: 15rem;
 }
+ .otstup3 {
+     padding-top: 5.4rem;
+ }
