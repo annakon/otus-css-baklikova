@@ -70,6 +70,7 @@
         width: 100%;
         top:0;
         left:0;
+        padding: 14.5rem 1rem 0.7em;
     }
 }
 
@@ -103,7 +104,7 @@
 @media (max-width: 1065px) {
     .back-image {
         transform: none;
-        top: 0;
+        top: 16.7rem;
         left: 0;
         overflow: hidden;
     }
