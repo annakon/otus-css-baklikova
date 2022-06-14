@@ -138,15 +138,16 @@
     display: flex;
     justify-content: flex-start;
     gap: 111px;
-    padding-top: 10.6rem;
+    /*padding-top: 10.6rem;*/
+    align-items: flex-end;
 }
 
-.article-con2 {
+/*.article-con2 {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: space-between;
-}
+}*/
 
 .des-style {
     writing-mode: vertical-rl;
@@ -156,7 +157,11 @@
     transform: rotate(-180deg);
     flex-basis: 100%;
     padding-right: 45%;
-    padding-top: 1rem;
+    /*padding-top: 1rem;*/
+}
+
+.article-min {
+
 }
 
 .roboto500 {
