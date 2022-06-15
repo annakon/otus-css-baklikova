@@ -127,9 +127,19 @@
 
 .left-katya {
     float: left;
-    padding-left: 130px;
+    padding-left: 148px;
     width: 50%;
     position: relative;
+}
+
+@media (max-width: 1065px) {
+    .left-katya {
+        padding-left:0;
+        width: 100%;
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column-reverse;
+    }
 }
 
 .biography {
@@ -139,11 +149,47 @@
     transform: rotate(-90deg);
 }
 
+@media (max-width: 1065px) {
+    .b-flex {
+        padding-top: 25rem;
+    }
+
+    .biography {
+        float: right;
+        position: static;
+        transform: none;
+    }
+
+    .clear {
+        padding-top: 40rem;
+    }
+}
+
 .name-katya {
     font-family: "Butler", Times, "Times New Roman", serif;
     font-weight: 300;
     font-size: 5.4rem;
     padding-top: 16.5rem;
+}
+
+.name-katya2 {
+    display: none;
+}
+
+@media (max-width: 1065px) {
+    .name-katya {
+       display: none;
+    }
+    .name-katya2 {
+        font-family: "Butler", Times, "Times New Roman", serif;
+        font-weight: 300;
+        font-size: 5.4rem;
+        display: block;
+    }
+
+    .rectangle {
+        display: none;
+    }
 }
 
 .prof-font {
@@ -152,6 +198,13 @@
     font-size: 1.1rem;
     padding-top: 2.75rem;
     padding-bottom: 4rem;
+}
+
+@media (max-width: 1065px) {
+    .prof-font {
+        padding: 0;
+        transform: translate(0,-500%);
+    }
 }
 
 .rectangle {
@@ -168,6 +221,12 @@
     font-weight: 200;
 }
 
+@media (max-width: 1065px) {
+    .bquote {
+        max-width: 100%;
+    }
+}
+
 .image-katya {
     float: left;
     padding-top: 4.8rem;
@@ -176,9 +235,19 @@
     overflow: hidden;
 }
 
-.plus-padding {
-    padding-left: 18px;
+@media (max-width: 1065px) {
+    .image-katya {
+        position: absolute;
+        width: 100vw;
+        padding: 0;
+        height: 353px;
+        top: 60rem;
+    }
 }
+
+/*.plus-padding {
+    padding-left: 18px;
+}*/
 
 .article-conteiner {
     display: flex;
