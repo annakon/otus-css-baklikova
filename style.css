@@ -151,7 +151,7 @@
     padding-right: 70.5%;
 }
 
-.roboto500 {
+.small-font {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
@@ -162,11 +162,10 @@
 }
 
 .article-jess {
-   /* padding-right: 10%;*/
     flex-grow: 0.55;
 }
 
-.otstup {
+.designers-margin {
     padding-top: 1.2rem;
 }
 
@@ -175,9 +174,9 @@
     font-size: 1rem;
 }
 
-.otstup2 {
+.testimonials-margin {
     padding-top: 15rem;
 }
- .otstup3 {
+ .designers-section-margin {
      padding-top: 5.4rem;
  }
