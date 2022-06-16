@@ -138,7 +138,7 @@
         width: 100%;
         display: flex;
         flex-wrap:wrap;
-        flex-direction: column-reverse;
+        /*flex-direction: column-reverse;*/
     }
 }
 
@@ -151,7 +151,8 @@
 
 @media (max-width: 1065px) {
     .b-flex {
-        padding-top: 25rem;
+        padding-top: 21.5rem;
+        padding-left: 0.7rem;
     }
 
     .biography {
@@ -183,7 +184,7 @@
     .name-katya2 {
         font-family: "Butler", Times, "Times New Roman", serif;
         font-weight: 300;
-        font-size: 5.4rem;
+        font-size: 4.875rem;
         display: block;
     }
 
@@ -202,8 +203,9 @@
 
 @media (max-width: 1065px) {
     .prof-font {
-        padding: 0;
-        transform: translate(0,-500%);
+        padding:0;
+        transform: translate(0,-1.1rem);
+        width: 170px;
     }
 }
 
@@ -224,6 +226,8 @@
 @media (max-width: 1065px) {
     .bquote {
         max-width: 100%;
+        padding-top: 4.2rem;
+        padding-bottom: 4rem;
     }
 }
 
