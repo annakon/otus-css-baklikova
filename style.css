@@ -153,6 +153,8 @@
     .b-flex {
         padding-top: 21.5rem;
         padding-left: 0.7rem;
+        padding-right: 0.7rem;
+        position: relative;
     }
 
     .biography {
@@ -240,12 +242,16 @@
 }
 
 @media (max-width: 1065px) {
-    .image-katya {
-        position: absolute;
-        width: 100vw;
-        padding: 0;
+    .for_img {
         height: 353px;
-        top: 60rem;
+        position: absolute;
+        top: 54.5rem;
+        overflow: hidden;
+    }
+    .image-katya {
+        padding: 0;
+        max-width: 100%;
+        margin-top: -10rem;
     }
 }
 
