@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body class="body-class">
 <main class="main-style">
@@ -86,9 +87,10 @@
     </section>
     <section class="section-style">
         <h2 class="roboto700 test-h">Testimonials</h2>
-        <div class="grid-test">
-            <div class="flex-cont">
-                <div class="a-container">
+        <div class="container">
+            <!--<div class="flex-cont"> -->
+            <div class="row">
+                <div class="col-1 a-container">
                     <div class="rotate rotate-otst"><a class="link" href="http://www.whitepapers.com"><span
                             class="b-link">Website</span><br> www.whitepapers.com</a></div>
                     <div class="rotate rotate-otst"><a class="link" href="http://www.whitepapers.com"><span
@@ -96,13 +98,16 @@
                     <div class="rotate rotate-otst"><a class="link" href="http://www.whitepapers.com"><span
                             class="b-link">Creativity</span><br> www.whitepapers.com</a></div>
                 </div>
-                <img src="img/keghan-crossland-ZZxmc66SjfM-unsplash%201.jpg" alt=""/>
-            </div>
-            <div class="right-test">
-                <blockquote class="bquote2">
+                <div class="col-5">
+                  <img src="img/keghan-crossland-ZZxmc66SjfM-unsplash%201.jpg" alt=""/>
+                </div>
+            <!-- </div> -->
+                <div class="col-6">
+                   <blockquote class="bquote2">
                     I just really want to do good work and work with some great people, people who challange me.
-                </blockquote>
-                <img class="img-mini" src="img/sinitta-leunen-YaReHIzNdRw-unsplash%201.jpg" alt=""/>
+                   </blockquote>
+                   <img class="img-mini" src="img/sinitta-leunen-YaReHIzNdRw-unsplash%201.jpg" alt=""/>
+                </div>
             </div>
         </div>
     </section>
