@@ -139,7 +139,10 @@
     justify-content: flex-start;
     gap: 1.5%;
     align-items: baseline;
-    overflow-x: scroll;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-33.5%);
+    width: 100%;
 }
 
 .des-style {
@@ -147,9 +150,10 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
-    transform: rotate(-180deg) translateY(-100%);
-    flex-basis: 100%;
-    padding-right: 70.5%;
+    transform: rotate(-180deg) translateY(262%);
+    position: absolute;
+    top: 50%;
+    left: 1015px;
 }
 
 .small-font {
