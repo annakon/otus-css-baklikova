@@ -134,7 +134,7 @@
     padding-left: 18px;
 }
 
-.article-conteiner {
+.article-container {
     display: flex;
     justify-content: flex-start;
     gap: 1.5%;
@@ -156,12 +156,11 @@
     font-weight: 500;
 }
 
-.jess {
+.article-big .designers-margin {
     padding-left: 178px;
-    padding-top: 1.2rem;
 }
 
-.article-jess {
+.article-big {
     flex-grow: 0.55;
 }
 
