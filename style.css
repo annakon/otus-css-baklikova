@@ -138,7 +138,8 @@
     display: flex;
     justify-content: flex-start;
     gap: 1.5%;
-    align-items: flex-end;
+    align-items: baseline;
+    overflow-x: scroll;
 }
 
 .des-style {
@@ -160,8 +161,18 @@
     padding-left: 178px;
 }
 
+.article-container article img {
+    height: 442px;
+    width: 309px;
+}
+
+.article-container article.article-big img {
+    width: 609px;
+    height: 538px;
+}
+
 .article-big {
-    flex-grow: 0.55;
+    flex-grow: 0.53;
 }
 
 .designers-margin {
@@ -177,5 +188,5 @@
     padding-top: 15rem;
 }
  .designers-section-margin {
-     padding-top: 5.4rem;
+     padding-top: 5.55rem;
  }
