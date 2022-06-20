@@ -324,7 +324,7 @@
 }
 
 .rotate {
-    transform: rotate(-90deg) translate(0,7rem);
+    transform: rotate(-90deg) translate(-1.5rem,6rem);
 }
 
 .grid-test {
@@ -338,28 +338,20 @@
 }
 
 .test-h {
-    padding-top: 18rem;
+    padding-top: 16.5rem;
     padding-left: 11rem;
     padding-bottom: 2rem;
 }
 
 .bquote2 {
     max-width: 206px;
-    /*padding-top: 1.75rem;*/
     font-size: 2rem;
     font-family: "Butler", Times, "Times New Roman", serif;
     font-weight: 200;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 41.5%;
     line-height: 1.2;
 }
-
-/*.right-test {
-    justify-self: center;
-    padding-top: 0.7rem;
-    padding-left: 2.7rem;
-}*/
 
 .a-container {
     padding-top: 3rem;
@@ -377,18 +369,12 @@
 }
 
 .img-mini {
-    padding-top: 2rem;
+    padding-top: 0.9rem;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding-left: 5.8rem;
 }
-
-/*.grid-container{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: space-between;
-    gap:28px;
-}*/
 
 .strong-p{
     writing-mode:vertical-rl;
