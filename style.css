@@ -199,8 +199,9 @@
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 1.1rem;
-    padding-top: 2.75rem;
-    padding-bottom: 4rem;
+    padding-top: 2.25rem;
+    padding-bottom: 3rem;
+    line-height: 1.2;
 }
 
 @media (max-width: 1065px) {
@@ -223,6 +224,7 @@
     font-size: 2rem;
     font-family: "Butler", Times, "Times New Roman", serif;
     font-weight: 200;
+    line-height: 1.2;
 }
 
 @media (max-width: 1065px) {
@@ -279,6 +281,7 @@
     flex-basis: 100%;
     padding-right: 45%;
     padding-top: 1rem;
+    margin-bottom: 0;
 }
 
 .roboto500 {
