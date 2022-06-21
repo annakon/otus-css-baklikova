@@ -338,7 +338,7 @@
 }
 
 .test-h {
-    padding-top: 16.5rem;
+    padding-top: 18rem;
     padding-left: 11rem;
     padding-bottom: 2rem;
 }
@@ -376,6 +376,13 @@
     padding-left: 5.8rem;
 }
 
+.grid-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap:28px;
+}
+
 .strong-p{
     writing-mode:vertical-rl;
     font-family: 'Roboto', sans-serif;
@@ -403,9 +410,10 @@
     font-family: "Butler",serif;
     font-weight: 300;
     font-size: 34px;
-    padding-left: 142px;
+    padding-left: 7rem;
     padding-right: 243px;
     padding-top: 27px;
+    line-height: 2.55rem;
 }
 
 .ul-type{
