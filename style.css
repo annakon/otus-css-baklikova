@@ -143,6 +143,7 @@
     top: 50%;
     transform: translateY(-33.5%);
     width: 100%;
+    overflow-x: auto;
 }
 
 .des-style {
