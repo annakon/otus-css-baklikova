@@ -169,6 +169,7 @@
 .article-container article img {
     height: 442px;
     width: 309px;
+    object-fit: contain;
 }
 
 .article-container article.article-big img {
