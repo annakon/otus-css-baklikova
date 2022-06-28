@@ -7,20 +7,8 @@
 :root {
     font-size: 16px;
     line-height: 1.2;
-}
-
-@font-face {
-    font-family: 'Butler';
-    src: local('Butler Light'), local('Butler-Light'), url('fonts/butler/Butlerlight.woff2') format('woff2'), url('fonts/butler/Butlerlight.woff') format('woff'), url('fonts/butler/Butlerlight.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Butler';
-    src: local('Butler UltraLight'), local('Butler-UltraLight'), url('fonts/butler/Butlerultralight.woff2') format('woff2'), url('fonts/butler/Butlerultralight.woff') format('woff'), url('fonts/butler/Butlerultralight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .body-class {
@@ -145,3 +133,74 @@
 .plus-padding {
     padding-left: 18px;
 }
+
+.article-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.5%;
+    align-items: baseline;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-33.5%);
+    width: 100%;
+    overflow-x: auto;
+}
+
+.des-style {
+    writing-mode: vertical-rl;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transform: rotate(-180deg) translateY(262%);
+    position: absolute;
+    top: 50%;
+    left: 1015px;
+}
+
+.small-font {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.article-big .designers-margin {
+    padding-left: 178px;
+}
+
+.article-container article img {
+    height: 442px;
+    width: 309px;
+    object-fit: contain;
+}
+
+.article-container article.article-big img {
+    width: 609px;
+    height: 538px;
+}
+
+.article-big {
+    margin: 0 6%;
+}
+
+.article-big:first-child {
+    margin-left: 0;
+}
+
+.article-big:last-child {
+    margin-right: 0;
+}
+
+.designers-margin {
+    padding-top: 1.2rem;
+}
+
+.UpperCase {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.testimonials-margin {
+    padding-top: 15rem;
+}
+ .designers-section-margin {
+     padding-top: 5.55rem;
+ }
