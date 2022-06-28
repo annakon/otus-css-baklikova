@@ -206,41 +206,42 @@
  }
 
 .grid-container{
-    display:grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-between;
-    gap:28px;
+    gap: 1.75rem;
 }
 
 .strong-p{
-    writing-mode:vertical-rl;
+    writing-mode: vertical-rl;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.125rem;
     transform: rotate(-180deg);
-    padding-right: 472px;
+    padding-right: 29.5rem;
 }
 
 .Strenght{
     font-family: "Butler",serif;
     font-weight: 300;
-    font-size: 92px;
+    font-size: 5.75rem;
     transform:translate(12%,22%);
 }
 
 .h-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 51px;
+    padding-bottom: 3.188rem;
 }
 
 .font-li{
     font-family: "Butler",serif;
     font-weight: 300;
-    font-size: 34px;
-    padding-left: 142px;
-    padding-right: 243px;
-    padding-top: 27px;
+    font-size: 2.125rem;
+    padding-left: 8.875rem;
+    padding-right: 15.188rem;
+    padding-top: 1.688rem;
+    line-height: 2.46rem;
 }
 
 .ul-type{
