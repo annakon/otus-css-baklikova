@@ -156,6 +156,15 @@
     margin-top: 0;
 }
 
+@supports (display: flex) {
+    .article-container {
+        display: flex;
+    }
+    .article-container article {
+        float: none;
+    }
+}
+
 .des-style {
     writing-mode: vertical-rl;
     font-family: 'Roboto', sans-serif;
@@ -168,92 +177,92 @@
 }
 
 .small-font {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
 }
 
 .article-big .designers-margin {
-    padding-left: 178px;
+padding-left: 178px;
 }
 
 .article-container article img {
-    height: 442px;
-    width: 309px;
-    object-fit: contain;
+height: 442px;
+width: 309px;
+object-fit: contain;
 }
 
 .article-container article.article-big img {
-    width: 609px;
-    height: 538px;
+width: 609px;
+height: 538px;
 }
 
 .article-big {
-    margin: 0 6%;
+margin: 0 6%;
 }
 
 .article-big:first-child {
-    margin-left: 0;
+margin-left: 0;
 }
 
 .article-big:last-child {
-    margin-right: 0;
+margin-right: 0;
 }
 
 .designers-margin {
-    padding-top: 1.2rem;
+padding-top: 1.2rem;
 }
 
 .UpperCase {
-    text-transform: uppercase;
-    font-size: 1rem;
+text-transform: uppercase;
+font-size: 1rem;
 }
 
 .testimonials-margin {
-    padding-top: 15rem;
+padding-top: 15rem;
 }
- .designers-section-margin {
-     padding-top: 5.55rem;
- }
+.designers-section-margin {
+ padding-top: 5.55rem;
+}
 
 .grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: space-between;
-    gap: 1.75rem;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+justify-content: space-between;
+gap: 1.75rem;
 }
 
 .strong-p{
-    writing-mode: vertical-rl;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 1.125rem;
-    transform: rotate(-180deg);
-    padding-right: 29.5rem;
+writing-mode: vertical-rl;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 1.125rem;
+transform: rotate(-180deg);
+padding-right: 29.5rem;
 }
 
 .Strenght{
-    font-family: "Butler",serif;
-    font-weight: 300;
-    font-size: 5.75rem;
-    transform:translate(12%,22%);
+font-family: "Butler",serif;
+font-weight: 300;
+font-size: 5.75rem;
+transform:translate(12%,22%);
 }
 
 .h-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-bottom: 3.188rem;
+display: grid;
+grid-template-columns: 1fr 1fr;
+padding-bottom: 3.188rem;
 }
 
 .font-li{
-    font-family: "Butler",serif;
-    font-weight: 300;
-    font-size: 2.125rem;
-    padding-left: 8.875rem;
-    padding-right: 15.188rem;
-    padding-top: 1.688rem;
-    line-height: 2.46rem;
+font-family: "Butler",serif;
+font-weight: 300;
+font-size: 2.125rem;
+padding-left: 8.875rem;
+padding-right: 15.188rem;
+padding-top: 1.688rem;
+line-height: 2.46rem;
 }
 
 .ul-type{
-    list-style-type: none;
+list-style-type: none;
 }
