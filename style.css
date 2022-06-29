@@ -135,15 +135,20 @@
 }
 
 .article-container {
-    display: flex;
+    /*display: flex;
     justify-content: flex-start;
-    gap: 1.5%;
+    gap: 1.5%;*/
     align-items: baseline;
     position: absolute;
     top: 50%;
     transform: translateY(-33.5%);
     width: 100%;
     overflow-x: auto;
+}
+
+.article-container article {
+    float:left;
+    padding-right: 1.5%;
 }
 
 .des-style {
