@@ -225,12 +225,13 @@
     font-family: "Butler",serif;
     font-weight: 300;
     font-size: 5.75rem;
-    transform:translate(12%,22%);
+    transform:translate(0,22%);
+    margin-left: 19.5rem;
 }
 
 .h-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    align-items: flex-end;
     padding-bottom: 3.188rem;
 }
 
