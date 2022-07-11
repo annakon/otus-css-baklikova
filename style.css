@@ -247,6 +247,12 @@
     list-style-type: none;
 }
 
+.flex-cont {
+    display: flex;
+    padding-top: 2.6rem;
+    justify-content: center;
+}
+
 .rotate {
     transform: rotate(-90deg) translate(0,7rem);
 }
