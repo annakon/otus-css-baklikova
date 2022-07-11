@@ -205,9 +205,8 @@
      padding-top: 5.55rem;
  }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+.li-container{
+    display: flex;
     justify-content: space-between;
     gap: 1.75rem;
 }
