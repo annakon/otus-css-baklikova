@@ -261,6 +261,10 @@
     display:grid;
     grid-template-columns: 1fr 1fr;
     gap:25px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-9%);
+    width: 100%;
 }
 
 .rotate-otst {
