@@ -15,10 +15,6 @@
     background-color: white;
 }
 
-.clear {
-    clear: both;
-}
-
 .main-style {
     max-width: 1440px;
     margin: 0 auto;
@@ -78,6 +74,10 @@
 
 #section-biography {
     min-height: 920px;
+}
+
+#section-designers::after {
+    clear: both;
 }
 
 .left-katya {
