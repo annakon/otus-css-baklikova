@@ -252,12 +252,6 @@
     list-style-type: none;
 }
 
-/*.flex-cont {
-    display: flex;
-    padding-top: 2.6rem;
-    justify-content: center;
-}*/
-
 .rotate {
     transform: rotate(-90deg) translate(-0.5rem,8.5rem);
 }
@@ -280,8 +274,6 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
-    /*padding-top: 18rem;
-    padding-left: 11rem;*/
     margin-bottom: 1rem;
     grid-column-start: 2;
     grid-column-end: 4;
@@ -289,7 +281,6 @@
 
 .bquote2 {
     max-width: 206px;
-    padding-top: 1.75rem;
     font-size: 2rem;
     font-family: "Butler", Times, "Times New Roman", serif;
     font-weight: 200;
@@ -298,8 +289,7 @@
 
 .right-test {
     justify-self: center;
-    padding-top: 0.7rem;
-    padding-left: 2.7rem;
+    padding-right: 3rem;
 }
 
 .a-container {
