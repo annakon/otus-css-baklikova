@@ -76,7 +76,7 @@
     min-height: 920px;
 }
 
-#section-designers::after {
+#section-designers::before {
     clear: both;
 }
 
