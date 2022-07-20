@@ -259,7 +259,7 @@
 }*/
 
 .rotate {
-    transform: rotate(-90deg) translate(0,7rem);
+    transform: rotate(-90deg) translate(-0.5rem,8.5rem);
 }
 
 .grid-test {
