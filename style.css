@@ -252,11 +252,11 @@
     list-style-type: none;
 }
 
-.flex-cont {
+/*.flex-cont {
     display: flex;
     padding-top: 2.6rem;
     justify-content: center;
-}
+}*/
 
 .rotate {
     transform: rotate(-90deg) translate(0,7rem);
@@ -264,11 +264,11 @@
 
 .grid-test {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 9.5rem 1fr 1fr;
     gap:25px;
     position: absolute;
     top: 50%;
-    transform: translateY(-9%);
+    transform: translateY(-11.5%);
     width: 100%;
 }
 
@@ -280,8 +280,11 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
-    padding-top: 18rem;
-    padding-left: 11rem;
+    /*padding-top: 18rem;
+    padding-left: 11rem;*/
+    margin-bottom: 1rem;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 
 .bquote2 {
