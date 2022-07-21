@@ -92,6 +92,7 @@
 }
 
 #section-strenght {
+    min-height: 900px;
     background-color: darkseagreen;
 }
 
@@ -114,6 +115,13 @@
     right: 2rem;
     bottom: 4.5%;
     transform: rotate(-90deg);
+}
+
+.biography-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
 }
 
 .name-katya {
