@@ -74,6 +74,25 @@
 
 #section-biography {
     min-height: 920px;
+    background-color: coral;
+}
+
+#section-testimonials {
+    min-height: 955px;
+    background-color: khaki;
+}
+
+#section-designers {
+    min-height: 900px;
+    background-color: skyblue;
+}
+
+#section-promo {
+    background-color: aquamarine;
+}
+
+#section-strenght {
+    background-color: darkseagreen;
 }
 
 #section-designers::before {
@@ -146,7 +165,7 @@
     align-items: baseline;
     position: absolute;
     top: 50%;
-    transform: translateY(-33.5%);
+    transform: translateY(-46%);
     width: 100%;
     overflow-x: auto;
 }
@@ -156,7 +175,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.1rem;
-    transform: rotate(-180deg) translateY(262%);
+    transform: rotate(-180deg) translateY(360%);
     position: absolute;
     top: 50%;
     left: 1015px;
@@ -203,17 +222,11 @@
     font-size: 1rem;
 }
 
-.Strenght-margin {
-    padding-top: 29rem;
-}
- .designers-section-margin {
-     padding-top: 5.55rem;
- }
-
 .li-container{
     display: flex;
     justify-content: space-between;
     gap: 1.75rem;
+    overflow-x: auto;
 }
 
 .strong-p{
@@ -262,7 +275,7 @@
     gap:25px;
     position: absolute;
     top: 50%;
-    transform: translateY(-11.5%);
+    transform: translateY(-41.5%);
     width: 100%;
 }
 
