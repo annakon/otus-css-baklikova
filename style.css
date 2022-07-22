@@ -338,6 +338,27 @@
     padding-top: 1.2rem;
 }
 
+@media (max-width: 1065px) {
+    .article-big {
+        display: none;
+    }
+    .des-style {
+        transform: none;
+        top: 8.5%;
+        left: 71%;
+        writing-mode: unset;
+    }
+    .article-container{
+        transform: translateY(-54%);
+        padding-left: 1.1rem;
+        gap:5%;
+    }
+    .article-container article img {
+        width: 262px;
+        object-fit: cover;
+    }
+}
+
 .UpperCase {
     text-transform: uppercase;
     font-size: 1rem;
