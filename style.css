@@ -39,7 +39,7 @@
     white-space: nowrap;
 }
 
-@media (max-width: 1065px) {
+@media (max-width: 800px) {
     .promo-box {
         transform: none;
         width: 100%;
@@ -56,7 +56,7 @@
     color: black;
 }
 
-@media (max-width: 1065px) {
+@media (max-width: 800px) {
     .promo-title {
         font-size: 4.375rem;
     }
@@ -71,7 +71,7 @@
     margin-top: 1em;
 }
 
-@media (max-width: 1065px) {
+@media (max-width: 800px) {
     .promo-description {
         margin-top: 2.6rem;
     }
@@ -85,7 +85,7 @@
     max-width: 1065px;
 }
 
-@media (max-width: 1065px) {
+@media (max-width: 800px) {
     .back-image {
         transform: none;
         top: 16.7rem;
@@ -102,7 +102,7 @@
     letter-spacing: .1px;
 
 }*/
-@media (max-width: 1065px) {
+@media (max-width: 800px) {
     #section-promo {
         min-height: 900px;
     }
@@ -135,7 +135,7 @@
     position: relative;
 }
 
-@media (max-width: 1065px) {
+@media (max-width: 800px) {
     .left-katya {
         padding-left:0;
         width: 100%;
@@ -154,7 +154,7 @@
     transform: rotate(-90deg);
 }
 
-@media (max-width: 1065px) {
+@media (max-width: 800px) {
     .b-flex {
         padding-left: 0.7rem;
         padding-right: 2rem;
@@ -188,7 +188,7 @@
     display: none;
 }
 
-@media (max-width: 1065px) {
+@media (max-width: 800px) {
     .name-katya {
        display: none;
     }
@@ -215,7 +215,7 @@
     padding-bottom: 4rem;
 }
 
-@media (max-width: 1065px) {
+@media (max-width: 800px) {
     .prof-font {
         padding:0;
         transform: translate(0,-1.1rem);
@@ -237,7 +237,7 @@
     font-weight: 200;
 }
 
-@media (max-width: 1065px) {
+@media (max-width: 800px) {
     .bquote {
         max-width: 100%;
         padding-top: 4.2rem;
@@ -255,7 +255,7 @@
     max-height: 100%;
 }
 
-@media (max-width: 1065px) {
+@media (max-width: 800px) {
     .for_img {
         height: 353px;
         position: absolute;
@@ -338,7 +338,7 @@
     padding-top: 1.2rem;
 }
 
-@media (max-width: 1065px) {
+@media (max-width: 800px) {
     .article-big {
         display: none;
     }
@@ -356,6 +356,11 @@
     .article-container article img {
         width: 262px;
         object-fit: cover;
+    }
+
+    article:last-child .designers-margin{
+        padding-left: 3.5rem;
+        width: 20rem;
     }
 }
 
