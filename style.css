@@ -102,6 +102,11 @@
     letter-spacing: .1px;
 
 }*/
+@media (max-width: 1065px) {
+    #section-promo {
+        min-height: 900px;
+    }
+}
 
 #section-biography {
     min-height: 920px;
@@ -151,9 +156,8 @@
 
 @media (max-width: 1065px) {
     .b-flex {
-        padding-top: 21.5rem;
         padding-left: 0.7rem;
-        padding-right: 0.7rem;
+        padding-right: 2rem;
         position: relative;
     }
 
@@ -161,11 +165,9 @@
         float: right;
         position: static;
         transform: none;
+        padding-top: 3rem;
     }
 
-    .clear {
-        padding-top: 40rem;
-    }
 }
 
 .biography-container {
@@ -199,6 +201,9 @@
 
     .rectangle {
         display: none;
+    }
+    .biography-container {
+        top: 35%;
     }
 }
 
@@ -237,6 +242,7 @@
         max-width: 100%;
         padding-top: 4.2rem;
         padding-bottom: 4rem;
+        padding-right: 2rem;
     }
 }
 
@@ -253,8 +259,9 @@
     .for_img {
         height: 353px;
         position: absolute;
-        top: 25rem;
+        top: 98%;
         overflow: hidden;
+        margin-left: -0.7rem;
     }
     .image-katya {
         padding: 0;
