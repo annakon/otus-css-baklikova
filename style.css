@@ -253,13 +253,14 @@
     .for_img {
         height: 353px;
         position: absolute;
-        top: 54.5rem;
+        top: 25rem;
         overflow: hidden;
     }
     .image-katya {
         padding: 0;
         max-width: 100%;
         margin-top: -10rem;
+        max-height: none;
     }
 }
 
