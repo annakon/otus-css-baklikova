@@ -4,27 +4,27 @@
     <meta charset="utf-8"/>
     <title>Atlas Studio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body class="body-class">
 <main class="main-style">
-    <section class="section-style">
+    <section class="section-style" id="section-promo">
         <div class="promo-box">
             <h1 class="promo-title">Atlas Studio</h1>
-            <h2 class="promo-description roboto700">Modern Web Studio</h2>
+            <h2 class="promo-description">Modern Web Studio</h2>
         </div>
         <img class="back-image" src="img/inside-weather-Uxqlfigh6oE-unsplash%201.jpg" alt="Atlas Studio"/>
     </section>
-    <section class="section-style b-flex">
-        <h2 class="biography roboto700">Biography</h2>
-        <div class="for_img">
-            <img class="image-katya" src="img/jared-weiss-P3cB0ynqYBw-unsplash%201.jpg" alt="Katya Mills"/>
-        </div>
-        <div class="left-katya">
+    <section class="section-style" id="section-biography">
+        <h2 class="biography">Biography</h2>
+        <div class="biography-container">
+         <img class="image-katya" src="img/jared-weiss-P3cB0ynqYBw-unsplash%201.jpg" alt="Katya Mills"/>
+         <div class="left-katya">
+            <div class="plus-padding">
                 <h3 class="name-katya">Katya<br> Mills</h3>
                 <p class="prof-font">Art Director <br>Scenography / Styling / Creative Photography / Design</p>
                 <div class="rectangle"></div>
@@ -32,92 +32,80 @@
                     “ The more I deal with the work as something that is my own, as something that is personal, the more
                     successful it is. ”
                 </blockquote>
-                <h3 class="name-katya2">-Katy Mills</h3>
+            </div>
+         </div>
         </div>
     </section>
-    <div class="clear"></div>
-    <section class="section-style">
-        <div class="article-conteiner">
-            <article>
-                <img class="des-img"
+    <section class="section-style" id="section-designers">
+        <h2 class="des-style">Designers</h2>
+        <div class="article-container">
+            <article class="article-big">
+                <img
                         src="img/spurwing-agency-r6LceZ3ckpM-unsplash%201.jpg"
                         alt=""
                 />
-                <div class="jess">
+                <div class="designers-margin">
                     <h3 class="UpperCase">Jess Wonder</h3>
                     <p>
-                        From/<span class="roboto500"> Be more flower</span>
+                        From/<span class="small-font"> Be more flower</span>
                         <br/>
-                        Skills/<span class="roboto500"> Design Strategy / Marketing </span>
+                        Skills/<span class="small-font"> Design Strategy / Marketing </span>
                     </p>
                 </div>
             </article>
-            <div class="article-con2">
-                <h2 class="des-style roboto700">Designers</h2>
-                <article>
-                    <img
-                            src="img/stil-P1jQzyvqfns-unsplash%201.jpg"
-                            alt=""
-                    />
-                    <div class="otstup">
-                        <h3 class="UpperCase">Kameron Clein</h3>
-                        <p>
-                            From/<span class="roboto500"> Be more flower</span>
-                            <br/>
-                            Skills/<span class="roboto500"> Design Strategy / Marketing</span>
-                        </p>
-                    </div>
-                </article>
-                <article>
-                    <img
-                            src="img/stil-_mvSe9q8_n4-unsplash%201.jpg"
-                            alt=""
-                    />
-                    <div class="otstup">
-                        <h3 class="UpperCase">Louisse Red</h3>
-                        <p>
-                            From/<span class="roboto500"> Be more flower</span>
-                            <br/>
-                            Skills/<span class="roboto500"> Design Strategy / Marketing</span>
-                        </p>
-                    </div>
-                </article>
-            </div>
+            <article>
+                <img
+                        src="img/stil-P1jQzyvqfns-unsplash%201.jpg"
+                        alt=""
+                />
+                <div class="designers-margin">
+                    <h3 class="UpperCase">Kameron Clein</h3>
+                    <p>
+                        From/<span class="small-font"> Be more flower</span>
+                        <br/>
+                        Skills/<span class="small-font"> Design Strategy / Marketing</span>
+                    </p>
+                </div>
+            </article>
+            <article>
+                <img
+                        src="img/stil-_mvSe9q8_n4-unsplash%201.jpg"
+                        alt=""
+                />
+                <div class="designers-margin">
+                    <h3 class="UpperCase">Louisse Red</h3>
+                    <p>
+                        From/<span class="small-font"> Be more flower</span>
+                        <br/>
+                        Skills/<span class="small-font"> Design Strategy / Marketing</span>
+                    </p>
+                </div>
+            </article>
         </div>
     </section>
-    <section class="section-style">
-        <h2 class="roboto700 test-h">Testimonials</h2>
-        <div class="container">
-            <!--<div class="flex-cont"> -->
-            <div class="row">
-                <div class="col-1 a-container">
+    <section class="section-style" id="section-testimonials">
+        <div class="grid-test">
+            <h2 class="test-h">Testimonials</h2>
+            <div class="a-container">
                     <div class="rotate rotate-otst"><a class="link" href="http://www.whitepapers.com"><span
                             class="b-link">Website</span><br> www.whitepapers.com</a></div>
                     <div class="rotate rotate-otst"><a class="link" href="http://www.whitepapers.com"><span
                             class="b-link">Creativity</span><br> www.whitepapers.com</a></div>
                     <div class="rotate rotate-otst"><a class="link" href="http://www.whitepapers.com"><span
                             class="b-link">Creativity</span><br> www.whitepapers.com</a></div>
-                </div>
-                <div class="col-5">
-                  <img src="img/keghan-crossland-ZZxmc66SjfM-unsplash%201.jpg" alt=""/>
-                </div>
-            <!-- </div> -->
-                <div class="col-6">
-                    <blockquote class="bquote2">
-                        I just really want to do good work and work with some great people, people who challange me.
-                    </blockquote>
-                   <img class="img-mini" src="img/sinitta-leunen-YaReHIzNdRw-unsplash%201.jpg" alt=""/>
-                </div>
+            </div>
+            <img src="img/keghan-crossland-ZZxmc66SjfM-unsplash%201.jpg" alt=""/>
+            <div class="right-test">
+                <blockquote class="bquote2">
+                    I just really want to do good work and work with some great people, people who challange me.
+                </blockquote>
+                <img class="img-mini" src="img/sinitta-leunen-YaReHIzNdRw-unsplash%201.jpg" alt=""/>
             </div>
         </div>
     </section>
-
-    <section class="section-style">
-        <div class="h-container">
-            <h2 class="strong-p">Strong points</h2>
-            <h3 class="Strenght">Strengths</h3>
-        </div>
-        <div class="grid-container">
+    <section class="section-style" id="section-strenght">
+        <h2 class="strong-p">Strong points</h2>
+        <div class="li-container">
             <div>
                 <img src="img/dawid-liberadzki-vPFbVB7DPZI-unsplash%201.jpg" alt=""/>
             </div>
@@ -125,6 +113,7 @@
                 <img src="img/avery-klein-JaXs8Tk5Iww-unsplash%201.jpg" alt=""/>
             </div>
             <div class="font-li">
+                <h3 class="Strenght">Strengths</h3>
                 <ul class="ul-type">
                     <li>Interiors</li>
                     <li>Outdoors</li>
