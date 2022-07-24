@@ -415,6 +415,37 @@
     padding-top: 5.5rem;
 }
 
+@media (max-width: 800px) {
+    .strong-p {
+        transform: none;
+        writing-mode: unset;
+        left: 16rem;
+        top: 10%;
+    }
+    .li-container {
+        transform: translateY(-41%);
+        gap: 0;
+    }
+    .img-chair {
+        display: none;
+        order: 1;
+    }
+    .font-li {
+        order: -1;
+    }
+    .Strenght {
+        margin-top: -7.5rem;
+        margin-left: -0.8rem;
+    }
+    .ul-type {
+        padding-top: 4.5rem;
+    }
+    .font-li {
+        padding-left: 1.4rem;
+        padding-right: 0;
+    }
+}
+
 .rotate {
     transform: rotate(-90deg) translate(-0.5rem,8.5rem);
 }
