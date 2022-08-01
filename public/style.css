@@ -59,6 +59,7 @@
 @media (max-width: 800px) {
     .promo-title {
         font-size: 4.375rem;
+        margin-left: -2.5rem;
     }
 }
 
@@ -74,6 +75,7 @@
 @media (max-width: 800px) {
     .promo-description {
         margin-top: 2.6rem;
+        margin-left: -1.5rem;
     }
 }
 
@@ -89,8 +91,7 @@
     .back-image {
         transform: none;
         top: 16.7rem;
-        left: 0;
-        overflow: hidden;
+        left:-50%;
     }
 }
 
@@ -105,6 +106,7 @@
 @media (max-width: 800px) {
     #section-promo {
         min-height: 900px;
+        overflow-x: hidden;
     }
 }
 
